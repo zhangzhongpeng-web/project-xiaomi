@@ -1,0 +1,125 @@
+body{
+    background: #f4f4f4;
+}
+.page-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8vw;
+}
+.page-banner{
+    height: 50vw;
+    width: 100%;
+    background: url(img/bg_page_header.png) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.page-head{
+    width: 100%;
+    height: 20vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+.page-head i{
+    height: 100%;
+    width: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-head p{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.page-head .edit{
+    height: 100%;
+    font-size: 14px;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span.show{font-size: 0!important;}
+
+.myCart_shop{
+    width: 92%;
+    margin-top: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+}
+.myCart_shop-top{
+    display: flex;
+    width: 100%;
+    height: 12vw;
+    padding: 2vw;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom: 1px solid #FEFCF7;
+}
+.myCart_shop-top p{
+    margin-left: 3vw;
+    font-size: 14px;
+    color: #333;
+    flex-grow: 1;
+}
+.myCart_shop-top span{
+    font-size: 11px;
+    color: #666;
+    width: auto;
+}
+ul.page_shop-shops{
+    width: 100%;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-radius: 8px;
+}
+.myCart_shop-shop{
+    display: flex;
+    align-items: center;
+    height: 36vw;
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+	
+}
+.myCart_shop-shop:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* 渲染部分 */
+.myCart_shop-shop{position: relative;}
+.shop_img{width: 22.933333vw;height: 22.933333vw;background-color: #F0F0F0;border-radius: 6px;margin-left: 15px;}
+.shop_img img{width: 100%;height: 100%;}
+.shop_present{}
+.shop_name{font-size: 15px;color: #555;margin-left: 20px;font-weight: 600;}
+.shop_price p{font-size: 15px;color: rgb(191, 17, 17);margin-left: 20px;margin-top: 10px;}
+.num-btn{width: 29vw;position: absolute;right: 0;bottom: 20px;display: flex;align-items: center;justify-content: center;text-align: center;}
+.num-btn .less{font-size: 32px;}
+.num-btn .num{display: block;background-color: #F4F4F4;width: 26px;height: 20px;border-radius: 5px;}
+.num-btn .add{font-size: 28px;}
+.otherBox{position: absolute;bottom: 4px;right: 8px;color: rgb(51,51,51);font-size: 13px;font-weight: bold;}
+.otherBox1{position: absolute;bottom: 1px;left: 38px;font-size: 12px;color: #888;}
+.otherBox1 span{color: rgb(187, 158, 114);font-weight: 700;}
+
+.page-footer{width: 100%;height: 14.4vw;background-color: #fff;position: fixed;bottom: 0;}
+.page-footer_left{width: 55px;height: 30px;font-size: 14px;margin-top: 15px;float: left;margin-left: 10px;}
+.page-footer_left input{width: 18px;height: 18px;}
+.page-footer_center{width: 42vw;height: 9.6vw;float: left;font-size: 14px;margin-top: 15px;text-align: right;font-weight:700 ;}
+.page-footer_center .page-price{color: red;}
+.page-footer_right{width: 90px;height: 37px;color: #FFFFFF;background: linear-gradient(to right, rgb(240, 78, 46), rgb(213, 16, 16));float: right;border-radius: 15px;text-align: center;line-height: 37px;font-weight: 700;font-size: 17px;margin-top: 8px;}
+.delete{display: none;}

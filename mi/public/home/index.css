@@ -1,0 +1,126 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+}
+.home-header {
+    width: 100%;
+    height: 14.933333vw;
+    flex-shrink: 0;
+    background-color: rgb(132, 93, 50);
+}
+.home-header>div {
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 9.6vw;
+}
+.search {
+    flex: 1;
+    height: 8.533333vw;
+    margin-left: 10px;
+    
+    background-color: rgb(240, 240, 240);
+    border-radius: 25px;
+}
+.search>div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 15px;
+    color: rgb(164, 164, 164);
+    font-size: 14px;
+}
+.search-icon {
+    width: 4.8vw;
+    height: 4.8vw;
+    margin-right: 10px;
+}
+.home-content {
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 245, 243);
+}
+.nav-content {
+    width: 18%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-icon {
+    width: 13.333333vw;
+    height: 13.333333vw;
+}
+.nav-content span {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.discount .container {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.discount .container>div {
+    width: 25%;
+    margin-top: 5px;
+}
+.selected {
+    margin: 10px 0;
+}
+.selected .container {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.selected-title {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.selected .container ul {
+    padding: 10px 0 10px 10px;
+    overflow: auto;
+    white-space:nowrap;
+}
+.selected .container ul li {
+    width: 24.8vw;
+    display: inline-block;
+}
+.selected .container ul li:nth-child(1) {
+    background-color: rgb(237, 246, 248);
+}
+.selected .container ul li:nth-child(2) {
+    background-color: rgb(252, 247, 241);
+}
+.selected .container img {
+    width: 24.8vw;
+    height: 24.8vw;
+}
+.selected .container .words {
+    width: 24.8vw;
+    height: 9.333333vw;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.home-footer {
+    width: 100%;
+    height: 13.333333vw;
+    flex-shrink: 0;
+    background-color: white;
+}
+iframe{width: 100%;}

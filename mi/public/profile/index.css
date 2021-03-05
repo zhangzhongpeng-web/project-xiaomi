@@ -1,0 +1,136 @@
+iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+.profile-container {
+	height: 100%;
+	background-color: #f3f3f3;
+	display: flex;
+	flex-direction: column;
+}
+/* 头部 */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-shrink: 0;
+	height: 100px;
+	background-image: url(/images/profile/image1.png);
+	background-position: center center ;
+	border-bottom: 1px solid #b0b0b0;
+}
+.content {
+	flex-grow: 1;
+}
+.footer {
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+.header .left {
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+}
+.header .left img {
+	align-self: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.header .left span {
+	padding-left: 20px;
+	color: #fff;
+}
+.header .right {
+	width: 18px;
+	padding-right: 20px;
+}
+.header .right img {
+	width: 18px;
+	height: 18px;
+}
+/* 我的订单 */
+.content-top {
+	width: 100%;
+	height: 110px;
+	background-color: #fff;
+}
+.content-top .order {
+	height: 41px;
+	border-bottom: 1px solid rgb(229,229,229);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.order .order-text {
+	color: rgb(51,51,51);
+	font-size: 14px;
+}
+.order img {
+	height: 15px;
+	width: 15px;
+}
+.order-list {
+	width: 100%;
+	height: 69px;
+	display: flex;
+	justify-content: center;
+}
+.order-list li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 0%;
+	
+}
+.order-list img {
+	height: 40px;
+	width: 40px;
+}
+.order-list span {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 12px;
+}
+.msg-list li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid rgb(244,244,244);
+	background-color: #fff;
+	height: 50px;
+}
+.msg-list li .left {
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+}
+.msg-list li .left img {
+	width: 30px;
+	height: 30px;
+}
+.msg-list li .left span {
+	color: rgb(51, 51, 51);
+	font-size: 14px;
+}
+.msg-list li .right {
+	margin-right: 10px;
+}
+.msg-list li .right img {
+	width: 15px;
+	height: 15px;
+}
+.btn-esc{
+	width: 100px;
+	height: 45px;
+	background-color: #fff;
+	border-radius: 8px;
+	border:  1px solid rgb(178, 178, 178);
+	font-size: 14px;
+	margin-left: 135px;
+	margin-bottom: 20px;
+}

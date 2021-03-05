@@ -1,0 +1,19 @@
+{
+  "name": "mall-server",
+  "version": "1.0.0",
+  "description": "商城服务器",
+  "main": "index.js",
+  "author": "Er-shixiong",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-favicon": "^2.1.0",
+    "koa-jwt": "^4.0.0",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,60 @@
+.nav {
+	display: flex;
+	height: 47px;
+}
+.nav li {
+	width: 100%;
+	height: 100%;
+	flex-grow: 1;
+	flex-basis: 0;
+	display: flex;
+}
+.nav li a {
+	flex-grow: 1;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.nav span {
+	color: #666;
+	font-size:10px;
+}
+.nav i {
+	background-image: url(../images/nav_bg.png);
+	background-size: 100% 1000%;
+	width: 24px;
+	height: 24px;
+}
+.nav li:nth-child(1) i {
+	background-position: 0 0;
+}
+.nav li:nth-child(2) i {
+	background-position: 0 22.222222%;
+}
+.nav li:nth-child(3) i {
+	background-position: 0 44.444444%;
+}
+.nav li:nth-child(4) i {
+	background-position: 0 66.666666%;
+}
+.nav li:nth-child(5) i {
+	background-position: 0 88.888888%;
+}
+
+.nav li:nth-child(1).active a i {
+	background-position: 0 11.111111%;
+}
+.nav li:nth-child(2).active a i {
+	background-position: 0 33.333333%;
+}
+.nav li:nth-child(3).active a i {
+	background-position: 0 55.5555555%;
+}
+.nav li:nth-child(4).active a i {
+	background-position: 0 77.777777%;
+}
+.nav li:nth-child(5).active a i {
+	background-position: 0 100%;
+}

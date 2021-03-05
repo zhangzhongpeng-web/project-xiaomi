@@ -1,0 +1,71 @@
+.city-picker-overlay { display: none; }
+.city-picker-overlay * { padding: 0; margin: 0; }
+.city-picker-overlay ul { list-style: none; }
+.city-picker-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.city-picker {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+}
+/* city-picker头部 */
+.city-picker-header { display: flex; justify-content: space-between;  }
+.city-picker-header a { 
+	font-size: 16px; 
+	text-decoration: none;  
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #999;
+}
+/* city-picker主体 */
+.city-picker-content {  }
+/* 选项卡头部 */
+.picker-title { 
+    height: 40px;
+    display: flex;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.picker-title li { 
+    flex-basis: 0; 
+    flex-grow: 1; 
+    height: 40px;
+    line-height: 40px; 
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+    border-bottom: 1px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.picker-title li.active { color: #3da5fe; border-bottom-color: #3da5fe; }
+/* 选项卡内容 */
+.picker-content {
+    height: 360px;
+    overflow: auto;
+	margin-top: 10px;
+}
+.picker-content ul { display: none; }
+.picker-content ul.active { display: block; }
+.picker-content ul>li {
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #333;
+	text-indent: 2em;
+}
+.picker-content ul>li.active {
+	background-color: #3da5fe;
+	color: #fff;
+}

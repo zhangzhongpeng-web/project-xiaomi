@@ -1,0 +1,94 @@
+body{
+    background-color: #f4f4f4;
+}
+.page-container{
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.page-header{
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    line-height: 14vw;
+	font-size: 17px;
+}
+.page-header span{margin-left: 118px;}
+.page-content{
+    flex-grow: 1;
+}
+.count{
+    font-size: 3vw;
+    color: #d71d1d;
+}
+
+.productTotal{
+    text-align: center;
+    margin-top: 8vw;
+}
+.total{
+    font-size: 30px;
+    color: #d71d1d;
+    font-weight: bolder;
+}
+.total span{font-size: 15px;}
+.payMenth{
+    border-radius: 5vw;
+}
+
+.payMenth img{
+    width: 8vw;
+    padding: 0 3vw;
+}
+
+.payMenth li{
+    display: flex;
+    width: 90%;
+    margin: 3vw auto 0;
+    padding: 3vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 10vw;
+    background-color: #fff;
+    border-radius: 3vw;
+}
+.payMenth li div{
+    display: flex;
+    align-items: center;
+}
+.payMenth li:nth-child(1){
+    border-bottom: 1px solid #eee;
+}
+
+.zhi{
+    position: relative;
+}
+.recommend{
+    position: absolute;
+    background-color: #EE4A2C;
+    width: 6vw;
+    height: 4vw;
+    left: 11vw;
+    top: 0vw;
+    color: #eee;
+    border-radius: 3vw;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 4vw;
+}
+
+.confirm{
+    width: 90%;
+    height: 10.666666vw;
+    background: linear-gradient(to right, rgb(241, 83, 56), rgb(223, 20, 15));
+    margin: 0 auto;
+    border-radius: 5vw;
+    text-align: center;
+    line-height: 10.666666vw;
+    color: #eee;
+}
+.icon-back1{font-size: 20px;margin-left: 10px;}

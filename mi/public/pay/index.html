@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="short icon" href="/public/favicon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../public/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../public/font_2231181_hcux8tpb9de/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../public/css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../public/address/regions_picker_m.css"/>
+    <link rel="stylesheet" type="text/css" href="../public/css/layer.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>确认支付</title>
+</head>
+<body>
+    
+    <div class="page-container">
+        <div class="page-header">
+            <i class="iconfont icon-back1"></i>
+            <span>有品收银台</span>
+            <span></span>
+        </div>
+        <div class="page-content">
+            <div class="productTotal">
+
+                <!-- 倒计时 -->
+                <div class="count down">
+                    <div id="remainSeconds" style="display:none">3600</div>
+                    <span>支付剩余时间:</span><span id="remainTime"></span>
+                </div>
+            </div>
+
+            <ul class="payMenth">
+                <li>
+                    <div>
+                        <img src="pay_alipay.png" alt="">
+                        <span  class="zhi">
+                            支付宝
+                            <span class="recommend">推荐</span>
+                        </span>
+                        
+                    </div>
+                    
+                    <input type="radio" name="chose" checked>
+                </li>
+                <li>
+                    <div>
+                        <img src="pay_mipay.png" alt="">
+                        <span>小米钱包</span>
+                    </div>
+                    <input type="radio" name="chose">
+                </li>
+            </ul>
+        </div>
+        <div class="confirm">
+            确认支付￥<span class="money"></span>.00
+        </div>
+        
+    </div>
+    
+
+
+
+
+    <script src="../public/js/jquery-3.4.1.js" type="text/javascript" charset="utf-8"></script>    
+    <script src="../public/js/jQuery-entend.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../public/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../public/address/regions.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../public/address/regions_picker_m.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../public/js/layer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

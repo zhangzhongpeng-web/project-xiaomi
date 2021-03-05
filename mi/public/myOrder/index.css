@@ -1,0 +1,196 @@
+.page-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #F4F4F4;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.7333333vw;
+    width: 90%;
+    margin: 0 auto;
+    flex-shrink: 0;
+}
+.page-header .icon-sousuo{
+    font-size: 24px;
+	color: #888;
+}
+
+.tab{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    height: 10.666666vw;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+	color: #666666;
+}
+.tab li.active{
+    background-color: #DFB556;
+    color: #eee;
+    padding: 1vw 3vw;
+    box-sizing: border-box;
+    border-radius: 5vw;
+}
+
+.order-message{
+    display: flex;
+    flex-direction: column;
+    /* background: #0f0; */
+    overflow: hidden;
+    height: 100%;
+}
+.order-message>div{
+    flex: 1;
+    padding: 5vw;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 100%; */
+    overflow: auto;
+    display: none;
+}
+.order-message>div.active{
+    display: block;
+}
+.order-message>div>ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+}
+.order-message>div>ul>li{
+    border-radius: 20px;
+    padding: 1vw;
+    box-sizing: border-box;
+    background: #fff;
+    margin: 3vw 0;
+}
+.order-message>div>ul>li img{
+    height: 100%;
+}
+.order-message>div>ul>li .tatil{
+    height: 12vw;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+.order-message>div>ul>li .tatil i{
+    width: 25px;
+    height: 25px;
+    background: url(./logo_xiaomi.png) no-repeat center center;
+    background-size: cover;
+}
+.order-message>div>ul>li .tatil p{
+    font-size: 15px;
+    color: #333;
+    flex: 1;
+    margin-left: 3vw;
+}
+.order-message>div>ul>li .tatil span{
+    font-size: 14px;
+    color: #999;
+}
+.sub-bottom{
+    display: flex;
+    height: 12vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+    font-size: 14px;
+}
+.sub-bottom span{
+    color: #999;
+}
+.sub-bottom p{
+    color: #bf1111;
+    border-radius: 10px;
+    padding: 1vw;
+    border: 1px solid #bf1111;
+}
+.allTotil{
+    display: flex;
+    font-size: 12px;
+    color: #333;
+    justify-content: flex-end;
+    align-items: center;
+}
+.allTotil>p{
+    padding: 0 1vw;
+}
+.allTotil>p>.orderPrice{
+    font-size: 16px;
+}
+.allTotil>p:nth-child(3)>span:nth-child(3){
+    color: #151515;
+}
+ul.yiOrder{
+    width: 100%;
+}
+.myCart_shop-shop{
+    display: flex;
+    align-items: center;
+    height: 28vw;
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+}
+.myCart_shop-shop:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.myCart_shop-shop .shop_info{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 14px;
+    color: #333;
+}
+ul.yiOrder .shop_img{
+    height: 100%;
+    background: #f4f4f4;
+    border-radius: 5px;
+    margin: 0 3vw;
+}
+ul.myCart_shop-shops img{
+    height: 100%;
+}
+.shop_price{
+    display: flex;
+}
+.shop_price>p{
+    flex-grow: 1;
+    color: #bf1111;
+    font-size: 15px;
+}
+.shop_price>p>span{
+    font-size: 10px;
+}
+ul.yiOrder .otherBox{
+    height: 10vw;
+}
+ul.yiOrder .myCart_shop-shop .calculation{
+    width: 8vw;
+    display: flex;
+}
+.noMessage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+    font-size: 12px; 
+    width: 100%;
+}
+.noMessage img{
+    width: 90px;
+    height: 90px;
+    margin: 10vw 0 4vw;
+}
